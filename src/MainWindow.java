@@ -1,4 +1,3 @@
-import io.qt.core.QList;
 import io.qt.core.Qt;
 import io.qt.gui.*;
 import io.qt.widgets.*;
@@ -30,7 +29,6 @@ public class MainWindow extends QMainWindow {
 */
     private void setupGUI() {
         QWidget centralWidget = new QWidget();
-        QWidget Task = new QWidget();
 
         QFormLayout layout = new QFormLayout();
 
